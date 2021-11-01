@@ -2,13 +2,40 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000149
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1590115762748
+  numberOfFiles: 3
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Position
+  - Units
+  - BehavioralTimeSeries
+  - ElectrodeGroup
 citation: Sharda, Saksham (2021) IBL ephys data (Version draft) [Data set]. DANDI
   archive. https://dandiarchive.org/dandiset/000149/draft
 contributor:
@@ -24,13 +51,21 @@ description: This dataset is a result of a multi-institution, cross country coll
   of labs, called International Brain Laboratory conducting standardized experiments
   on decision-making in mice.  This dataset contains contains data similar to the
   dandiset https://gui.dandiarchive.org/#/dandiset/000045 with additional ephys data.
+ethicsApproval: []
 id: DANDI:000149/draft
 identifier: DANDI:000149
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000149/versions/draft/assets/
 name: IBL ephys data
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000149/draft
 version: draft
+wasGeneratedBy: []
