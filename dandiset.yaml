@@ -40,7 +40,7 @@ citation: International Brain Laboratory (2021) IBL ephys data (Version draft) [
   set]. DANDI archive. https://dandiarchive.org/dandiset/000149/draft
 contributor:
 - contactPoint: []
-  email: info+ephys@internationalbrainlab.org
+  email: ibldata@internationalbrainlab.org
   includeInCitation: true
   name: International Brain Laboratory
   roleName:
