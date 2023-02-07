@@ -36,7 +36,7 @@ assetsSummary:
   - Units
   - BehavioralTimeSeries
   - ElectrodeGroup
-citation: International Brain Laboratory (2022) IBL ephys data (Version draft) [Data
+citation: International Brain Laboratory (2023) IBL ephys data (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000149/draft
 contributor:
 - contactPoint: []
@@ -47,7 +47,7 @@ contributor:
   - dcite:ContactPerson
   - dcite:Author
   schemaKey: Organization
-  url: internationalbrainlab.com
+  url: http://internationalbrainlab.com
 dateCreated: '2021-10-21T10:37:50.095204+00:00'
 description: This dataset is a result of a multi-institution, cross country collaboration
   of labs, called International Brain Laboratory conducting standardized experiments
@@ -64,7 +64,7 @@ manifestLocation:
 name: IBL ephys data
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
