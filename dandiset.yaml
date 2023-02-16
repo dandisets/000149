@@ -52,7 +52,7 @@ dateCreated: '2021-10-21T10:37:50.095204+00:00'
 description: This dataset is a result of a multi-institution, cross country collaboration
   of labs, called International Brain Laboratory conducting standardized experiments
   on decision-making in mice.  This dataset contains contains data similar to the
-  dandiset https://gui.dandiarchive.org/#/dandiset/000045 with additional ephys data.
+  dandiset https://dandiarchive.org/dandiset/000045 with additional ephys data.
 ethicsApproval: []
 id: DANDI:000149/draft
 identifier: DANDI:000149
